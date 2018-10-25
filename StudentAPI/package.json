@@ -1,0 +1,30 @@
+{
+    "name": "studentapi",
+    "version": "1.0.1",
+    "description": "student api ",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon ./bin/www"
+    },
+    "keywords": [
+        "student",
+        "api",
+        "nodejs",
+        "api"
+    ],
+    "author": "sarvesh.mca@hotmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "bluebird": "^3.5.2",
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.3",
+        "debug": "^4.1.0",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "mongoose": "^5.3.6",
+        "mongoose-paginate": "^5.0.3",
+        "morgan": "^1.9.1",
+        "nodemon": "^1.18.4",
+        "serve-favicon": "^2.5.0"
+    }
+}
